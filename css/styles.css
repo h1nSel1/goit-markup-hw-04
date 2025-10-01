@@ -39,6 +39,8 @@ section {
 /* header */
 .head-style {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 /* logo */
 .nav-style .logo {
@@ -101,6 +103,7 @@ section {
   letter-spacing: 0.02em;
   color: #434455;
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts .contacts-style .mail-style:hover,
